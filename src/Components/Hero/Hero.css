@@ -1,0 +1,57 @@
+.hero {
+    display: flex;
+    justify-content: center; /* Aligns content horizontally in the center */
+  }
+  
+  .content {
+    box-shadow: 4px 2px 9px 1px rgba(27, 27, 27, 0.3);
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    max-width: 1550px; /* Adjust as needed */
+    margin: 150px; /* Centers the content horizontally */
+  }
+  
+  .text {
+    flex: 1; /* Takes up remaining space */
+    padding: 20px; /* Adjust as needed */
+  }
+  
+  h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    
+  }
+  
+  p {
+    font-size: 22px;
+    color: #ffffff;
+    
+  }
+  
+  .image {
+    height: 700px;
+    width: 700px;
+    
+  }
+  
+  .heroimg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .btnhero {
+    
+    height: 40px;
+    width: 130px;
+    font-size: 20px;
+    background-color: #a4b0bc;
+    border-radius: 4px;
+    border: none;
+    color: #12203b;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 30px;
+    box-shadow: 4px 2px 9px 1px rgba(27, 27, 27, 0.3);
+}
+  
