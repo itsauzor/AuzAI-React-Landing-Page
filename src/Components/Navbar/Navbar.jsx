@@ -5,7 +5,6 @@ import { FiArrowUpRight } from "react-icons/fi";
 import { FaSearch } from "react-icons/fa";
 
 
-
 const Navbar = () => {
   return (
     <nav>
